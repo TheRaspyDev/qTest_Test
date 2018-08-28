@@ -8,5 +8,6 @@ Feature: Account Holder withdraws cash
     When the Account Holder requests $20
     Then the ATM should dispense $20
      And the account balance should be $80
-     And the card should be returned
+     And the card should be returned 
+     And yes
      
