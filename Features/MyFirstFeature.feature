@@ -3,6 +3,7 @@ Feature: Account Holder withdraws cash
 
   Scenario: Account has sufficient funds
    Then when Given
+   When Then Given And
    Given the account balance is $100
      And the card is valid
      And the machine contains enough money  
